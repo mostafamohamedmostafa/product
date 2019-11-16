@@ -1,3 +1,6 @@
+
+
+
 body {
   background-color: #eee;
 }
@@ -16,10 +19,16 @@ li {
  
 }
 
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
 
 .grid {
   display: flex;
 }
+
+
 
 header {
   position: fixed;
@@ -75,6 +84,17 @@ nav > ul {
   height: 30px;
   background-color: #f1c40f;
 }
+
+
+#features .description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 125px;
+  width: 80vw;
+  padding: 5px;
+}
+
 
 
 .btn {
