@@ -139,3 +139,15 @@ nav > ul {
   cursor: pointer;
   background-color: orange;
 }
+
+footer {
+  margin-top: 30px;
+  background-color: #ddd;
+  padding: 20px;
+}
+
+footer > ul {
+  display: flex;
+  justify-content: flex-end;
+  margin: 10px;
+}
