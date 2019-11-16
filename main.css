@@ -26,3 +26,8 @@ a {
   width: 100%;
   margin: auto auto;
 }
+
+.grid {
+  display: flex;
+  flex-direction: column;
+}
