@@ -82,7 +82,31 @@ nav > ul {
 #submit{
   width: 100px;
   height: 30px;
-  margin: 15px 0;
-  border: 0;
+  border: none;
   background-color: #f1c40f;
+}
+
+#features {
+  margin-top:30px;
+}
+
+#features .icon {
+  display: block;
+
+  color: darkorange;
+}
+
+#features .description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 125px;
+  width: 80vw;
+  padding: 5px;
+}
+
+#video {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
 }
