@@ -2,6 +2,7 @@ body {
   background-color: #eee;
 }
 
+
 #page-wrapper {
   position: relative;
 }
@@ -9,6 +10,7 @@ body {
 li {
   list-style: none;
 }
+
 
 a {
   color:black;
@@ -197,6 +199,8 @@ footer > ul {
     padding: 0;
     height: 150px;
   }
+
+  
 }
 
 @media (max-width: 800px) {
