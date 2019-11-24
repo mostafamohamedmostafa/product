@@ -83,20 +83,7 @@ nav {
 } */
 
 
-@media (max-width: 650px) {
-  nav {
-    margin-top: 10px;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    padding: 0 50px;
-  }
-  nav li {
-    padding-bottom: 5px;
-  }
-}
+
 
 nav > ul {
   width: 35vw;
@@ -105,11 +92,7 @@ nav > ul {
   justify-content: space-around;
 }
 
-@media (max-width: 650px) {
-  nav > ul {
-    flex-direction: column;
-  }
-}
+
 
 #hero {
   display: flex;
@@ -149,12 +132,6 @@ width: 100%;
   align-items: center;
 }
 
-@media (max-width: 550px) {
-  #features .icon {
-    display: none;
-  }
-}
-
 
 #features .description {
   display: flex;
@@ -165,21 +142,6 @@ width: 100%;
   padding: 5px;
 }
 
-@media (max-width: 550px) {
-  #features .description {
-    width: 100%;
-    text-align: center;
-    padding: 0;
-    height: 150px;
-  }
-}
-
-
-@media (max-width: 650px) {
-  #features {
-    margin-top: 0;
-  }
-}
 
 
 
@@ -205,6 +167,10 @@ width: 100%;
   margin: 20px;
   border: 2px solid #000;
   border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
 }
 
 
@@ -224,21 +190,6 @@ width: 100%;
 .product > ol > li {
   padding: 5px 0;
 }
-
-
-@media (max-width: 800px) {
-  #pricing {
-    flex-direction: column;
-  }
-  .product {
-    max-width: 300px;
-    width: 100%;
-    margin: 0 auto;
-    margin-bottom: 10px;
-  }
-}
-
-
 
 .btn {
   padding: 0 20px;
@@ -333,5 +284,40 @@ footer > ul {
 
   .header .navbar-wrapper .navbar ul {
     justify-content: flex-end;
+  }
+}
+
+
+@media (max-width: 800px) {
+  #pricing {
+    flex-direction: column;
+  }
+  .product {
+    max-width: 300px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+}
+
+
+@media (max-width: 650px) {
+  #features {
+    margin-top: 0;
+  }
+  nav > ul {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 550px) {
+  #features .description {
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    height: 150px;
+  }
+  #features .icon {
+    display: none;
   }
 }
